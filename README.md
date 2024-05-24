@@ -1,7 +1,6 @@
-# Prova FIAP - Desenvolvimento de Software
+# Menu Python - CP3 Computational Thinking With Python
 
-Este é um código desenvolvido como parte de uma prova da FIAP, onde os candidatos tiveram 1 hora e 30 minutos para completar o desafio.
-
+Este é um código desenvolvido como parte de uma prova da FIAP, onde os candidatos tiveram 1 hora e 30 minutos para completar o desafio.(Uso de internet e outros aparelhos eletrocios é restrito)
 ## Descrição
 
 O código consiste em um menu interativo que oferece diversas opções de funcionalidades para o usuário. As funcionalidades incluem:
