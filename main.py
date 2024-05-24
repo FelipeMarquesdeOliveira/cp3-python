@@ -39,3 +39,38 @@ def soma_itens(matriz):
             if j > i:
                 soma += matriz[i][j]
     return soma
+
+while True:
+    print('[1] Verificar se número é perfeito')
+    print('[2] Verificar se a lista é um palíndromo')
+    print('[3] Preencher Matriz')
+    print('[4] Exibir Matriz')
+    print('[5] Somar elementos acima da diagonal principal')
+    print('[6] Finalizar')
+
+    opcao = int(input('Escolha uma opção: '))
+    if opcao == 1:
+        n = int(input('Número: '))
+        numero_perfeito(n)
+    elif opcao == 2:
+        lista = input('Digite a lista separada por espaços: ').split()
+        palindromo(lista)
+    elif opcao == 3:
+        linhas = int(input('Linhas: '))
+        colunas = int(input('Colunas: '))
+        matriz = preencher_matriz(linhas, colunas)
+    elif opcao == 4:
+        if 'matriz' not in locals():
+            print('A matriz ainda não foi preenchida.')
+        else:
+            exibir_matriz(matriz)
+    elif opcao == 5:
+        if 'matriz' not in locals():
+            print('A matriz ainda não foi preenchida.')
+        else:
+            soma = soma_itens(matriz)
+            print('A soma dos elementos acima da diagonal principal é:', soma)
+    elif opcao == 6:
+        break
+    else:
+        print('Opção Inválida')
